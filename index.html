@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Urooj - AI-Enabled Full-Stack & Cloud-Native Developer Portfolio" />
+  <meta name="theme-color" content="#050505" />
+  <title>Urooj — AI Full-Stack Developer</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <canvas id="bgCanvas" aria-hidden="true"></canvas>
+
+  <!-- NAV -->
+  <nav id="nav">
+    <div class="nav-logo" onclick="window.scrollTo(0,0)">UROOJ</div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="hamburger" id="ham" aria-label="Toggle Navigation">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#experience">Experience</a>
+    <a href="#projects">Projects</a>
+    <a href="#education">Education</a>
+    <a href="#contact">Contact</a>
+  </div>
+
+  <!-- HERO -->
+  <header class="hero" id="home">
+    <div class="hero-inner fade-in">
+      <div class="hero-badge">Available for opportunities</div>
+      <div class="avatar">U</div>
+      <h1><span>UROOJ</span></h1>
+      <div class="hero-role">AI-Enabled Full-Stack & Cloud-Native Developer</div>
+      <div class="hero-loc">📍 Karachi, Pakistan &nbsp;·&nbsp; github.com/urooj704</div>
+      <div class="pill-row">
+        <span class="pill">AI & Agents</span>
+        <span class="pill">Next.js · FastAPI</span>
+        <span class="pill">Docker · Kubernetes</span>
+        <span class="pill g">5+ Hackathons</span>
+      </div>
+      <div class="cta-row">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="#contact" class="btn btn-outline">Get in Touch</a>
+      </div>
+    </div>
+    <div class="scroll-hint">scroll</div>
+  </header>
+
+  <main>
+    <!-- ABOUT -->
+    <section id="about">
+      <div class="container fade-in delay-1">
+        <div class="sec-tag">01 / About</div>
+        <h2 class="sec-title">Who I Am</h2>
+        <div class="divline"></div>
+        <div class="stats">
+          <div class="stat"><div class="stat-n">5+</div><div class="stat-l">Hackathons</div></div>
+          <div class="stat"><div class="stat-n">4</div><div class="stat-l">Qualifications</div></div>
+          <div class="stat"><div class="stat-n">10+</div><div class="stat-l">Tech Skills</div></div>
+        </div>
+        <p class="about-text">AI-powered full-stack developer with solid experience in Prompt Engineering, Spec-Driven Development (SpecKitPlus), Docker, and Kubernetes. Builds agent-based AI systems, cloud-native applications, and scalable web platforms using Next.js and FastAPI. Successfully participated in 5+ AI and cloud-native hackathons, consistently delivering production-ready solutions within tight deadlines.</p>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" style="background: var(--bg2)">
+      <div class="container fade-in">
+        <div class="sec-tag">02 / Skills</div>
+        <h2 class="sec-title">Technical Stack</h2>
+        <div class="divline"></div>
+        <div class="skills-grid">
+          <div class="sk-card fade-in">
+            <div class="sk-label l1">AI & Agentic</div>
+            <div class="sk-tags">
+              <span class="sk-tag new">Prompt Engineering</span>
+              <span class="sk-tag new">Spec-Driven Dev</span>
+              <span class="sk-tag new">SpecKitPlus</span>
+              <span class="sk-tag">OpenAI SDK</span>
+              <span class="sk-tag">Gemini API</span>
+              <span class="sk-tag">n8n</span>
+              <span class="sk-tag">Puppeteer</span>
+            </div>
+          </div>
+          <div class="sk-card fade-in delay-1">
+            <div class="sk-label l2">Frontend</div>
+            <div class="sk-tags">
+              <span class="sk-tag">Next.js 15</span>
+              <span class="sk-tag">React</span>
+              <span class="sk-tag">TypeScript</span>
+              <span class="sk-tag">Tailwind CSS</span>
+              <span class="sk-tag">ShadCN UI</span>
+              <span class="sk-tag">Aceternity UI</span>
+            </div>
+          </div>
+          <div class="sk-card fade-in delay-2">
+            <div class="sk-label l3">Backend</div>
+            <div class="sk-tags">
+              <span class="sk-tag">FastAPI</span>
+              <span class="sk-tag">Node.js</span>
+              <span class="sk-tag new">Python</span>
+              <span class="sk-tag">REST APIs</span>
+            </div>
+          </div>
+          <div class="sk-card fade-in">
+            <div class="sk-label l4">DevOps & Cloud</div>
+            <div class="sk-tags">
+              <span class="sk-tag">Docker</span>
+              <span class="sk-tag">Kubernetes</span>
+              <span class="sk-tag">GKE</span>
+              <span class="sk-tag">CI/CD</span>
+            </div>
+          </div>
+          <div class="sk-card fade-in delay-1">
+            <div class="sk-label l5">Databases & CMS</div>
+            <div class="sk-tags">
+              <span class="sk-tag">MongoDB</span>
+              <span class="sk-tag">SQLite</span>
+              <span class="sk-tag">Sanity CMS</span>
+            </div>
+          </div>
+          <div class="sk-card fade-in delay-2">
+            <div class="sk-label l6">Tools</div>
+            <div class="sk-tags">
+              <span class="sk-tag">Git · GitHub</span>
+              <span class="sk-tag">Figma</span>
+              <span class="sk-tag">Stripe</span>
+              <span class="sk-tag">ShipEngine</span>
+              <span class="sk-tag">VS Code</span>
+            </div>
+          </div>
+        </div>
+        <p class="new-note fade-in delay-3">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+          Highlighted tags are newly added skills
+        </p>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience">
+      <div class="container fade-in">
+        <div class="sec-tag">03 / Experience</div>
+        <h2 class="sec-title">Hackathon & Practical Experience</h2>
+        <div class="divline"></div>
+        <div class="exp-list">
+
+          <div class="exp-item fade-in">
+            <div class="exp-dot"></div>
+            <div class="exp-meta">
+              <div>
+                <h3 class="exp-title">AI Automation Workflow System</h3>
+                <div class="exp-org">GIAIC Hackathon 0</div>
+              </div>
+              <div class="exp-period">2024 · Karachi</div>
+            </div>
+            <ul class="exp-bullets">
+              <li>Designed end-to-end AI-powered automation pipelines using n8n and REST API integrations to eliminate repetitive digital tasks.</li>
+              <li>Integrated OpenAI (GPT-4) and Gemini APIs for intelligent decision-making and dynamic content generation.</li>
+              <li>Implemented browser automation with Puppeteer for real-time web scraping and multi-step task execution.</li>
+              <li>Used Python for backend scripting, data transformation, and API communication within the automation stack.</li>
+              <li>Delivered a fully functional live demo under hackathon time constraints with modular, extensible pipeline architecture.</li>
+            </ul>
+          </div>
+
+          <div class="exp-item fade-in">
+            <div class="exp-dot"></div>
+            <div class="exp-meta">
+              <div>
+                <h3 class="exp-title">GIAIC Course Prototypes — AI Learning Tools</h3>
+                <div class="exp-org">Governor Initiative for AI & Cloud</div>
+              </div>
+              <div class="exp-period">2024 – Present</div>
+            </div>
+            <ul class="exp-bullets">
+              <li>Applied Spec-Driven Development (SpecKitPlus) to define precise functional specs before coding, reducing ambiguity and rework.</li>
+              <li>Built interactive course platform with Next.js 15, Tailwind CSS, and ShadCN UI for responsive user experiences.</li>
+              <li>Integrated OpenAI Agents SDK for intelligent Q&A, exercise generation, and adaptive learning flows.</li>
+              <li>Collaborated with GIAIC instructors to iteratively refine product specs and ship classroom-ready tools.</li>
+            </ul>
+          </div>
+
+          <div class="exp-item fade-in">
+            <div class="exp-dot"></div>
+            <div class="exp-meta">
+              <div>
+                <h3 class="exp-title">Cloud-Native Application Deployments</h3>
+                <div class="exp-org">Personal & Hackathon Projects</div>
+              </div>
+              <div class="exp-period">2023 – Present</div>
+            </div>
+            <ul class="exp-bullets">
+              <li>Containerized full-stack applications using Docker, managing images, volumes, and multi-container environments.</li>
+              <li>Deployed services on Kubernetes (GKE) with pods, services, and rolling deployments for zero-downtime delivery.</li>
+              <li>Set up CI/CD pipelines with GitHub Actions to automate testing, building, and deployment across environments.</li>
+              <li>Integrated Stripe and ShipEngine APIs into e-commerce platforms built with Next.js and FastAPI.</li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" style="background: var(--bg2)">
+      <div class="container fade-in">
+        <div class="sec-tag">04 / Projects</div>
+        <h2 class="sec-title">Key Projects</h2>
+        <div class="divline"></div>
+        <div class="proj-grid">
+
+          <div class="proj-card fade-in">
+            <h3 class="proj-title">AI Automation Workflow System</h3>
+            <p class="proj-desc">End-to-end automation pipelines eliminating repetitive tasks. Integrated GPT-4 and Gemini decision nodes, n8n workflows, and Puppeteer browser automation.</p>
+            <div class="proj-chips">
+              <span class="chip">Python</span><span class="chip">n8n</span><span class="chip">OpenAI</span><span class="chip">Gemini</span><span class="chip">Puppeteer</span>
+            </div>
+          </div>
+
+          <div class="proj-card fade-in delay-1">
+            <h3 class="proj-title">Spec-Driven AI Course Platform</h3>
+            <p class="proj-desc">Full SpecKitPlus-driven lifecycle — specs written before code. Adaptive AI learning with streaming OpenAI responses, hints, and exercise generation.</p>
+            <div class="proj-chips">
+              <span class="chip">SpecKitPlus</span><span class="chip">Next.js 15</span><span class="chip">OpenAI SDK</span><span class="chip">TypeScript</span>
+            </div>
+          </div>
+
+          <div class="proj-card fade-in">
+            <h3 class="proj-title">Cloud-Native E-Commerce Platform</h3>
+            <p class="proj-desc">Full-stack app with Next.js frontend, FastAPI backend, MongoDB Atlas. Deployed on GKE with Kubernetes. Stripe payments + ShipEngine logistics.</p>
+            <div class="proj-chips">
+              <span class="chip">Next.js</span><span class="chip">FastAPI</span><span class="chip">Docker</span><span class="chip">Kubernetes</span><span class="chip">Stripe</span>
+            </div>
+          </div>
+
+          <div class="proj-card fade-in delay-1">
+            <h3 class="proj-title">AI Agent Workflow Orchestrator</h3>
+            <p class="proj-desc">Multi-agent system where specialized agents collaborate on complex tasks. FastAPI orchestration layer with structured prompt engineering for consistent outputs.</p>
+            <div class="proj-chips">
+              <span class="chip">Python</span><span class="chip">OpenAI Agents SDK</span><span class="chip">FastAPI</span><span class="chip">Gemini</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education">
+      <div class="container fade-in">
+        <div class="sec-tag">05 / Education</div>
+        <h2 class="sec-title">Education & Certifications</h2>
+        <div class="divline"></div>
+        <div class="edu-list">
+          <div class="edu-row fade-in">
+            <div class="edu-ico ic-m">M</div>
+            <div class="edu-main">
+              <h3 class="edu-deg">Master of Science in Computer Science</h3>
+              <div class="edu-inst">Virtual University of Pakistan</div>
+              <span class="edu-badge b-prog">In Progress</span>
+            </div>
+          </div>
+          <div class="edu-row fade-in">
+            <div class="edu-ico ic-b">B</div>
+            <div class="edu-main">
+              <h3 class="edu-deg">Bachelor of Science in Computer Science</h3>
+              <div class="edu-inst">University of Karachi · 2019 – 2023</div>
+              <span class="edu-badge b-done">Completed</span>
+            </div>
+          </div>
+          <div class="edu-row fade-in">
+            <div class="edu-ico ic-a">A</div>
+            <div class="edu-main">
+              <h3 class="edu-deg">3-Year Diploma in Computer Science</h3>
+              <div class="edu-inst">Aptech Computer Education · 2016 – 2019</div>
+              <span class="edu-badge b-done">Completed</span>
+            </div>
+          </div>
+          <div class="edu-row fade-in">
+            <div class="edu-ico ic-g">G</div>
+            <div class="edu-main">
+              <h3 class="edu-deg">Governor Initiative for AI & Cloud (GIAIC)</h3>
+              <div class="edu-inst">Certification Program · 2024</div>
+              <span class="edu-badge b-enr">Enrolled</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SOFT SKILLS -->
+    <section style="background: var(--bg2)">
+      <div class="container fade-in">
+        <div class="sec-tag">06 / Soft Skills</div>
+        <h2 class="sec-title">Professional Attributes</h2>
+        <div class="divline"></div>
+        <div class="soft-grid">
+          <div class="soft-card fade-in"><h3 class="soft-title">Problem-Solving</h3><p class="soft-desc">Analytical thinking, system design, and creative debugging with first-principles decomposition.</p></div>
+          <div class="soft-card fade-in delay-1"><h3 class="soft-title">Communication & Teaching</h3><p class="soft-desc">Technical writing, documentation, mentoring, and translating complex ideas clearly.</p></div>
+          <div class="soft-card fade-in delay-2"><h3 class="soft-title">Rapid Learning</h3><p class="soft-desc">Fast adoption of new tools, frameworks, and paradigms under tight deadlines.</p></div>
+          <div class="soft-card fade-in"><h3 class="soft-title">Team Collaboration</h3><p class="soft-desc">Agile teamwork, cross-functional coordination, and constructive code review.</p></div>
+          <div class="soft-card fade-in delay-1"><h3 class="soft-title">System Thinking</h3><p class="soft-desc">Holistic architecture view, anticipating edge cases, and designing maintainable systems.</p></div>
+          <div class="soft-card fade-in delay-2"><h3 class="soft-title">Deadline-Driven</h3><p class="soft-desc">Proven track record of delivering polished, production-quality work within sprint timelines.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+      <div class="container fade-in">
+        <div class="sec-tag">07 / Contact</div>
+        <h2 class="sec-title">Get In Touch</h2>
+        <div class="divline"></div>
+        <div class="contact-wrap">
+          <div class="ct-card fade-in">
+            <div class="ct-label">Email</div>
+            <div class="ct-val"><a href="mailto:Uroojanxari1234@gmail.com">Uroojanxari1234@gmail.com</a></div>
+          </div>
+          <div class="ct-card fade-in delay-1">
+            <div class="ct-label">Phone</div>
+            <div class="ct-val"><a href="tel:+923052769583">+92 305 2769583</a></div>
+          </div>
+          <div class="ct-card fade-in delay-2">
+            <div class="ct-label">GitHub</div>
+            <div class="ct-val"><a href="https://github.com/urooj704" target="_blank" rel="noopener noreferrer">github.com/urooj704</a></div>
+          </div>
+          <div class="ct-card fade-in delay-3">
+            <div class="ct-label">Location</div>
+            <div class="ct-val">Karachi, Pakistan</div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Designed & built by <span>Urooj</span> · AI-Enabled Full-Stack Developer · Karachi, Pakistan</p>
+    <p class="footer-note">Open to remote and on-site opportunities · References available upon request</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

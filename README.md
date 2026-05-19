@@ -1,16 +1,33 @@
-## Hi there 👋
+# Urooj - AI Full-Stack Developer 🚀
 
-<!--
-**urooj704/urooj704** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Welcome to my GitHub profile and portfolio repository! I'm an AI-Enabled Full-Stack & Cloud-Native Developer from Karachi, Pakistan, specializing in Prompt Engineering, Spec-Driven Development, and building scalable cloud-native architectures.
 
-Here are some ideas to get you started:
+![Portfolio Preview](./portfolio-preview.gif) *(Add a screenshot or gif of your portfolio here later)*
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🔗 Live Portfolio
+You can view my live portfolio here: **[urooj704.github.io/urooj704](https://urooj704.github.io/urooj704)**
+
+---
+
+## 🛠 Tech Stack
+
+- **AI & Agentic:** Prompt Engineering, Spec-Driven Dev, OpenAI SDK, Gemini API, n8n, Puppeteer
+- **Frontend:** Next.js 15, React, TypeScript, Tailwind CSS, ShadCN UI
+- **Backend:** FastAPI, Python, Node.js, REST APIs
+- **DevOps & Cloud:** Docker, Kubernetes (GKE), CI/CD (GitHub Actions)
+- **Databases:** MongoDB, SQLite, Sanity CMS
+
+## 🚀 Key Projects
+
+- **AI Automation Workflow System:** End-to-end automation pipelines eliminating repetitive tasks. Integrated GPT-4 and Gemini decision nodes, n8n workflows, and Puppeteer.
+- **Spec-Driven AI Course Platform:** Built using SpecKitPlus with adaptive AI learning, streaming OpenAI responses, and interactive exercise generation.
+- **Cloud-Native E-Commerce Platform:** Next.js frontend, FastAPI backend, Stripe, ShipEngine, containerized and deployed on GKE.
+
+## 📫 Get In Touch
+
+- **Email:** [Uroojanxari1234@gmail.com](mailto:Uroojanxari1234@gmail.com)
+- **LinkedIn:** [linkedin.com/in/urooj-ansari-8980752b7/](https://www.linkedin.com/in/urooj-ansari-8980752b7/)
+- **Phone:** +92 305 2769583
+
+---
+*This repository contains the source code for my professional portfolio. Feel free to explore the code in `index.html`, `css/style.css`, and `js/script.js`.*
